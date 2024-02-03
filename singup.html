@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="facbok.css" rel="stylesheet"> -->
+    <link href="./css/singup.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="warpper">
+        <div class="header">
+            <div class="sub-header">
+                <div class="hea fl">
+                    <p>facebook</p>
+                </div>
+            </div>
+            <!--------end sub header-->
+            <div class="clr"></div>
+        </div>
+        <!--------end header-->
+
+        <div class="content">
+            <div class="left-con fl">
+                <div class="face">
+                    <p>Facebook helps you connect and share with the people in your life.</p>
+                </div>
+                <div class="fabimage">
+                    <img src="./images/facebook.jpg">
+                </div>
+            </div>
+            <div class="right-con fr">
+                <h1 class="heaft">Create an account</h1>
+                <p class="firstpa">It's quick and easy</p>
+                <form  action="insertdata.php" method="POST">
+                    <div class="nameif">
+                        <p>
+                            <input type="text" name="fir" placeholder="First Name" class="name-i">
+                            <input type="text" name="fir" placeholder="Last name" class="name-ie">
+                        </p>
+                        <p>
+                            <input type="email" name="u_email" placeholder="Mobile Number or Eamil address" class="paem">
+                        </p>
+                        <p>
+                            <input type="password" name="u_pass" placeholder="New Password" class="paem">
+                        </p>
+                        <p class="bart">Birthday</p>
+                        <p>
+                            <input type="date" name="dat" class="dtae"><i class="fas fa-question-circle"></i>
+                        </p>
+                        <p class="bart">Gender</p>
+                        <p class="texss">
+                            <input type="radio" name="status" value="person"> Female
+                            <input type="radio" name="status" value="person"> Male
+                            <input type="radio" name="status" value="person"> Customa
+                            <i class="fas fa-question-circle"></i>
+                        </p>
+                        <p class="page"> By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive
+                            SMS notifications from us and can opt out at any time.</p>
+                        <p>
+                            <input type="submit" name="tbt" value="Sign Up" class="butn">
+                        </p>
+                        <p class="lastex">Create a Page for a celebrity, band or business.</p>
+                    </div>
+                </form>
+            </div>
+            <div class="clr"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+

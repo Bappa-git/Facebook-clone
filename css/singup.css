@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.fl{
+    float: left;
+}
+.fr{float: right;}
+.clr{clear: both;}
+.warpper{
+   background-color: #E9EBEE;
+   width: 100%;
+   height: 100vh;
+}
+.header{
+    width: 100%;
+    background-color: #4267B2;
+}
+.sub-header{
+    width: 70%;
+    margin: auto;
+}
+.hea{
+    width: 30%;
+}
+.hea p{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.user-form{
+    width: 40%;
+    color: #fff;
+}
+.nae-id{
+    padding: 10px 2%;
+    font-size: 13px;
+    color: #fff;
+}
+.btn{
+    width: 150%;
+    background-color: rgb(91,130,206);
+    height: 25px;
+    color: #fff;
+    margin-top: 20px;
+    border: 1px solid #1D2129;
+}
+.btn:hover{background-color: rgb(6, 50, 184);}
+.int-for{height: 25px; width: 100%;}
+.mar{margin-bottom: 5px;}
+.forget{margin-top: 5px; color: rgb(226, 224, 224);}
+.content{width: 70%; margin: auto;}
+.left-con {width: 50%;}
+.face{width: 80%; margin-top: 60px;}
+.face p{font-size: 20px; font-weight: bold; color: rgb(29, 30, 32); line-height: 30px;}
+.fabimage{width: 100%; margin-top: 30px;}
+.fabimage img{width: 100%; height: 300px;}
+.right-con{width: 40%;}
+.heaft{font-size: 43px; margin-top: 15px; color: #4B3333;}
+.firstpa{font-size: 20px; color: #4B3333;}
+.nameif{width: 100%; margin-top: 20px;}
+.name-i{width: 47%; height: 40px;}
+.name-ie{width: 47%; height: 40px;}
+.paem{width: 100%; height: 40px; margin-top: 15px;}
+.dtae{width: 50%; height: 35px;}
+.bart{margin: 15px 0 5px 0; font-size: 20px; font-weight: bold; color: #90949c;}
+.fas{font-size: 20px; margin: 5px 0 0 3%; color: #606770; }
+.texss{font-size: 25px; color: #1D2129;}
+.page{font-size: 12px; color:#89778A; width: 70%; margin-top: 15px;}
+.butn{
+    width: 40%;
+    height: 40px;
+    background-color: #6BA253;
+    color: #fff;
+    font-size: 20px;
+    margin: 15px 0 40px 0;
+    border: 1px solid #1D2129;
+    border-radius: 10px;
+}
+.butn:hover{background-color: rgb(125, 216, 92);}
+.lastex{font-size: 16px;}

@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Login Page</title>
+    <link rel="stylesheet" href="./css/loginstyle.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="flex-div">
+        <div class="name-content">
+          <h1 class="logo">Facebook</h1>
+          <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+          <form action="logincheck.php" method="POST">
+            <input type="text" name="u_email" placeholder="Email or Phone Number" required />
+            <input type="password" name="u_pass" placeholder="Password" required>
+            <button class="login"type="submit" name="save" value="login">Log In</button>
+            <a href="#">Forgot Password ?</a>
+            <hr>
+            <button class="create-account"onclick="create()">Create New Account</button>
+          </form>
+          
+      </div>
+    </div>
+    <script>
+      function create(){
+        window.location.href="singup.html";
+      }
+    </script>
+  </body>
+</html>
